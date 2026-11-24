@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.App" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="ScreenBackground"><item name="android:background">@color/black</item></style>
+    <style name="ScreenBackground2"><item name="android:background">@color/gray</item></style>
+    <style name="TextColor"><item name="android:textColor">@color/light_gray</item></style>
+    <style name="TextColor2"><item name="android:textColor">@color/white</item></style>
+    <style name="TextColorWithBackground"><item name="android:textColor">@color/white</item><item name="android:background">@drawable/background_color_with_rounded_corner_gray</item></style>
+    <style name="ButtonColor"><item name="android:background">@color/gray</item></style>
+    <style name="CustomAutoCompleteTextViewStyle">
+        <item name="android:background">@drawable/background_rounded_corner_gray</item>
+        <item name="android:textColor">@color/gray9D</item>
+        <item name="android:popupBackground">@color/light_gray</item>
+    </style>
+    <style name="TextBackground">
+        <item name="android:background">@drawable/text_gradient_background</item>
+        <item name="android:textColor">@color/gray9D</item>
+    </style>
+
+    <style name="TextColor3">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+</resources>

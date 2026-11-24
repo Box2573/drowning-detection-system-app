@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">app</string>
+    <string name="forget_pass"><u>忘記密碼?</u></string>
+    <string name="url">&lt;APPS_SCRIPT_ENDPOINT&gt;</string>
+    <string name="stream_url">http://&lt;PRIVATE_SERVER_IP&gt;:&lt;PORT&gt;/video_feed/</string>
+    <string name="web_url">&lt;REPORT_WEB_URL&gt;</string>
+    <string-array name="cameras">
+        <item>監視器001</item>
+        <item>監視器002</item>
+        <item>監視器003</item>
+        <item>監視器004</item>
+    </string-array>
+</resources>

@@ -1,0 +1,38 @@
+# Android / Gradle build outputs
+.gradle/
+**/build/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# IDE and local machine settings
+.idea/
+*.iml
+.vscode/
+local.properties
+*.swp
+*.swo
+
+# Secrets, signing material, certificates and private environment files
+secrets.properties
+*.env
+.env*
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+
+# Personal or private generated demo media
+Screenshots/private/
+Videos/private/
+
+# Operating system clutter
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/ScreenBackground"
+    tools:context=".HomepageUser">
+
+    <!--region 標題區域-->
+    <ImageButton
+        android:id="@+id/last_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/cardview_mask"
+        android:src="@drawable/ic_arrow_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/hello_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="數據報告"
+        style="@style/TextColor"
+        android:textSize="60sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/last_page"
+        android:layout_marginStart="20dp" />
+
+    <!-- 帳號icon -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ic_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@color/transparent"
+            android:popupTheme="@style/ButtonColor"
+            android:drawableStart="@drawable/ic_account_circle_white_100dp"
+            android:focusableInTouchMode="false"
+            android:gravity="center_horizontal"
+            android:inputType="none"
+            android:text=""
+            android:textSize="30sp"
+            android:dropDownWidth="130dp"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- 主題設定 -->
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="主題設定"
+        android:textSize="24sp"
+        style="@style/TextColor"
+        app:layout_constraintBottom_toBottomOf="@+id/ic_account"
+        app:layout_constraintTop_toTopOf="@+id/ic_account"
+        app:layout_constraintEnd_toStartOf="@+id/ic_account"
+        android:layout_marginEnd="16dp"
+        />
+
+    <!-- dark mode switch -->
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:thumb="@drawable/thumb"
+        app:layout_constraintEnd_toEndOf="@+id/text1"
+        app:layout_constraintStart_toStartOf="@+id/text1"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        app:track="@drawable/track" />
+    <!--endregion-->
+    
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/webView"
+        app:layout_constraintTop_toBottomOf="@id/switch_mode"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
