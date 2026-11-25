@@ -16,27 +16,30 @@
 
 ### App 操作畫面
 
-<!-- 請將實際截圖放入 Screenshots/，並依照檔名調整下方路徑 -->
-
-| 登入畫面 | 管理首頁 |
+| 登入畫面 | 員工首頁 |
 |---|---|
-| ![Login](Screenshots/Login.png) | ![Dashboard](Screenshots/Dashboard.png) |
+| ![Login](./Screenshots/Login.png) | ![Dashboard](./Screenshots/Dashboard.png)|
+
+| 暗黑模式 | 管理員首頁 |
+|---|---|
+| ![Darkmode](./Screenshots/Darkmode.png) |![Dashboard2](./Screenshots/Dashboard2.png)|
 
 | 監視器總覽 | 瀏覽單個監視器 |
 |---|---|
-| ![Camera Monitoring](Screenshots/CameraMonitoring.png) | ![Camera Zoom](Screenshots/CameraZoom.png) |
+| ![Camera Monitoring](./Screenshots/CameraMonitoring.png) | ![Camera Zoom](./Screenshots/CameraZoom.png) |
 
 | 警報紀錄 | 設備管理 |
 |---|---|
-| ![Drowning Logs](Screenshots/DrowningLogs.png) | ![Device Management](Screenshots/DeviceManagement.png) |
+| ![Drowning Logs](./Screenshots/DrowningLogs.png) | ![Device Management](./Screenshots/DeviceManagement.png) |
 
 | 人員管理 | 維修管理 |
 |---|---|
-| ![People Management](Screenshots/PeopleManagement.png) | ![Repair Management](Screenshots/RepairManagement.png) |
+| ![People Management](./Screenshots/PeopleManagement.png) | ![Repair Management](./Screenshots/RepairManagement.png) |
 
 ### 操作影片
+- 以Android Studio操作畫面做展示
 
-
+[![觀看示範影片](https://img.youtube.com/vi/QUFvfOaPPUw/hqdefault.jpg)](https://www.youtube.com/watch?v=QUFvfOaPPUw)
 ---
 
 ## 專案功能
